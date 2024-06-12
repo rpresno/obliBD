@@ -1,9 +1,4 @@
-PILOTO;4;;;;;;;;;
-numeroPiloto;nombre;hsVuelo;licencia;;;;;;;
-no;si;no;no;;;;;;;
-123;nom 1;23;444;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
+PILOTO;4;;;
+numeroPiloto;nombre;hsVuelo;licencia;observaciones
+no;si;no;no;
+1;Piloto Perez;500;5001;1-base

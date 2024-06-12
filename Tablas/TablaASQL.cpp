@@ -95,7 +95,7 @@ string leoTablaASQL(){
     return salida;
 }
 
-/*int main(){
+int main(){
     string nombre;
     int cantCol;
     string lineaLectura;
@@ -145,4 +145,4 @@ string leoTablaASQL(){
     return 0;
 
 
-}*/
+}

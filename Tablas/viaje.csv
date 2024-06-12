@@ -1,42 +1,13 @@
-VIAJE;10;;;;;;;;
-numeroPiloto;idAvion;paisPasajero;nroDocPasajero;tipoDocPasajero;paisDestino;ciudadDestino;fechaViaje;importe;metodoPago
-no;no;si;no;si;si;si;si;no;si
-1;1794;Uruguay;2713701;Cedula;Uruguay;Montevideo;05/05/2024;4000;Efectivo
-2;8485;Uruguay;2762237;Cedula;Uruguay;Maldonado;05/05/2024;3000;Tarjeta
-3;8091;Brasil;3717275;Pasaporte;Espania;Barcelona;05/05/2023;1000;Transferencia
-5;8576;Argentina;3784198;Pasaporte;Espania;Madrid;05/05/2023;7000;Efectivo
-4;76;Argentina;2848945;Pasaporte;Argentina;Concordia;05/05/2023;6000;Tarjeta
-6;7767;Estados Unidos;3516598;Pasaporte;Estados Unidos;Miami;10/05/2023;1000;Transferencia
-1;8349;Estados Unidos;2913732;Cedula;Estados Unidos;Nueva York;10/05/2024;6000;Efectivo
-5;9434;Peru;3142150;Pasaporte;Uruguay;Montevideo;10/05/2024;4000;Efectivo
-4;1794;Argentina;4598443;Cedula;Uruguay;Maldonado;10/05/2024;3000;Tarjeta
-6;8485;Peru;5227767;Pasaporte;Brasil;Brasilia;10/05/2024;1000;Transferencia
-1;8091;Uruguay;6968667;Pasaporte;Argentina;Buenos Aires;10/05/2024;9000;Efectivo
-2;8576;Argentina;6418799;Pasaporte;Argentina;Concordia;10/05/2024;8000;Tarjeta
-3;2460;Espania;2700936;Pasaporte;Espania;Barcelona;10/05/2024;8000;Transferencia
-5;6924;Uruguay;2713701;Cedula;Espania;Madrid;10/05/2024;7000;Efectivo
-4;6470;Uruguay;2762237;Cedula;Espania;Barcelona;10/05/2024;1000;Tarjeta
-6;4443;Brasil;3717275;Pasaporte;Espania;Madrid;10/05/2024;5000;Transferencia
-1;5641;Argentina;3784198;Pasaporte;Uruguay;Maldonado;10/05/2024;3000;Efectivo
-2;1794;Argentina;2848945;Pasaporte;Brasil;Brasilia;04/04/2024;2000;Tarjeta
-3;8485;Estados Unidos;3516598;Pasaporte;Argentina;Buenos Aires;04/04/2024;2000;Transferencia
-5;8091;Estados Unidos;2913732;Cedula;Argentina;Concordia;04/04/2024;6000;Efectivo
-4;8576;Espania;5554654;Pasaporte;Espania;Barcelona;04/04/2024;7000;Tarjeta
-6;6219;Bolivia;4217743;Pasaporte;Espania;Madrid;04/04/2024;3000;Transferencia
-4;4131;Uruguay;2713701;Cedula;Brasil;Brasilia;04/04/2024;6000;Efectivo
-6;2682;Uruguay;2762237;Cedula;Argentina;Buenos Aires;04/04/2024;1000;Tarjeta
-1;3655;Brasil;3717275;Pasaporte;Argentina;Concordia;04/04/2024;4000;Transferencia
-2;8485;Argentina;3784198;Pasaporte;Estados Unidos;Miami;04/04/2024;8000;Efectivo
-3;8091;Argentina;2848945;Pasaporte;Estados Unidos;Nueva York;04/04/2024;3000;Tarjeta
-5;8576;Estados Unidos;3516598;Pasaporte;Argentina;Buenos Aires;04/04/2024;6000;Transferencia
-4;2460;Estados Unidos;2913732;Cedula;Espania;Madrid;04/04/2024;6000;Efectivo
-6;6899;Espania;5554654;Pasaporte;Espania;Barcelona;04/04/2024;5000;Tarjeta
-5;1794;Bolivia;4217743;Pasaporte;Espania;Madrid;04/04/2024;9000;Transferencia
-4;8485;Peru;3142150;Pasaporte;Uruguay;Montevideo;04/04/2024;1000;Efectivo
-6;8091;Argentina;4598443;Cedula;Uruguay;Maldonado;04/04/2024;1000;Tarjeta
-2;8576;Peru;5227767;Pasaporte;Brasil;Brasilia;04/04/2024;9000;Transferencia
-3;8485;Uruguay;6968667;Pasaporte;Argentina;Buenos Aires;04/04/2024;1000;Efectivo
-5;8091;Argentina;6418799;Pasaporte;Espania;Barcelona;04/04/2024;4000;Tarjeta
-4;8576;Espania;2700936;Pasaporte;Espania;Madrid;04/04/2024;5000;Transferencia
-6;2460;Uruguay;4293981;Pasaporte;Estados Unidos;Nueva York;04/04/2024;8000;Efectivo
-6;2460;Uruguay;11111111;Cedula;Estados Unidos;Nueva York;04/04/2024;8000;Efectivo
+VIAJE;10;;;;;;;;;
+numeroPiloto;idAvion;paisPasajero;nroDocPasajero;tipoDocPasajero;paisDestino;ciudadDestino;fechaViaje;importe;metodoPago;observaciones
+no;no;si;no;si;si;si;si;no;si;
+1;101;pais1;1;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 airbus ESP
+1;104;pais2;2;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 airbus no ESP
+1;102;pais3;3;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 embraer ESP
+1;105;pais4;4;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 embraer no ESP
+1;101;pais5;5;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos ESP
+1;102;pais5;5;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos ESP
+1;104;pais6;6;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos no ESP
+1;105;pais6;6;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos no ESP
+1;100;pais7;7;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 boeing ESP
+1;103;pais8;8;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 boeing no ESP
