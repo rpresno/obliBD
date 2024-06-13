@@ -1,13 +1,6 @@
 AEROLINEA;6;;;;
 rutAerolinea;telefono;nombre;razonSocial;pais;tipoVuelo
 no;no;si;si;si;si
-112354975138;11111111;Bryanair;razon 1;Irlanda;Internacional
-151795238796;22222222;Golazo;razon 2;Brasil;Local
-197749449449;33333333;Pluma;razon 3;Uruguay;Ambas
-310191797749;55555555;EurAiropa;razon 4;Francia;Internacional
-740926799855;44444444;Capo;razon 5;Chile;Local
-749479749744;77777777;Aerolentas Argentinas;razon 7;Argentina;Local
-798497716161;88888888;Lamat;razon 8;Colombia;Internacional
-947849401990;44444444;British Erreways;razon 6;Reino Unido;Ambas
-980790979844;99999999;I Barria;razon 9;Espania;Internacional
-999999999999;18181818;Konsthansa;razon 0;Alemania;Internacional
+1000;099999999;Ibernia;razon 1;España;Internacional
+2000;088888888;Golazo;razon 2;Brasil;Internacional
+

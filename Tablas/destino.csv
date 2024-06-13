@@ -1,4 +1,6 @@
-DESTINO;3;;
-pais;ciudad;cantidadHabitantes;observaciones
-si;si;no;
-Francia;Paris;2240621;1-base
+DESTINO;3;;;;;
+pais;ciudad;cantidadHabitantes;observaciones;;;
+si;si;no;;;;
+Francia;Paris;2240621;1-base;;;
+Australia;Sidney;5450496;2-base;;;
+Australia;Melbourne;5207145;2-base;;;

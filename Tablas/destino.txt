@@ -1,0 +1,9 @@
+INSERT INTO DESTINO(pais, ciudad, cantidadHabitantes)
+VALUES
+('Francia', 'Paris', 2240621);
+INSERT INTO DESTINO(pais, ciudad, cantidadHabitantes)
+VALUES
+('Australia', 'Sidney', 5450496);
+INSERT INTO DESTINO(pais, ciudad, cantidadHabitantes)
+VALUES
+('Australia', 'Melbourne', 5207145);
