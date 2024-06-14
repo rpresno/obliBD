@@ -1,0 +1,123 @@
+1) Seleccionar la cantidad de clientes.
+Select count(*)
+from clientes
+
+2) Seleccionar el mayor y el menor precio de los productos.
+Select max(p.precio) as maximo, min(p.precio) as minimo
+from producto p
+
+3) Seleccionar el promedio de precios de los productos
+Select avg(p.precio)
+from producto p
+
+4) Seleccionar el número de las órdenes cuando el precio del producto ordenado sea el precio
+mayor de todos los productos.
+Select d.num_orden
+from detalle d, producto p
+where p.cod_prod = d.cod_prod
+    and p.precio = (select max(precio)
+                    from producto)
+
+5) Seleccionar la cantidad de clientes por ciudad.
+select c.ciudad, count(*)
+from clientes c
+group by c.ciudad
+
+6) Seleccionar la cantidad de órdenes por día en el período comprendido entre el 1 y 20 de abril de
+este año
+select fecha_orden, count(*)
+from orden
+where fecha_orden between '01/04/17' and '20/04/17'
+group by fecha_orden
+
+7) Seleccionar la cantidad de órdenes que hay por día, con su respectivo importe.
+select o.fecha_orden, count(o.fecha_orden) as cantidad, sum(p.precio) as suma
+from orden o, detalle d, producto p
+where o.num_orden = d.num_orden
+    and d.cod_prod = p.cod_prod
+group by fecha_orden
+
+8) Seleccionar las ciudades en donde hay más de 3 clientes.
+select ciudad
+from clientes
+group by ciudad
+having count(*) > 3
+
+9) Seleccionar el número de las órdenes en donde se haya pedido más de un producto.
+--ALGEBRA RELACIONAL
+select distinct d1.num_orden
+from detalle d1, detalle d2
+where d1.num_orden = d2.num_orden
+        and d1.cod_prod <> d2.cod_prod
+
+9)AGRUPACION
+select num_orden
+from detalle
+group by num_orden
+having count(*) > 1
+
+10) Seleccionar el número de las órdenes cuando la cantidad total pedida es superior a 100 y no se
+pida menos de 30 unidades por producto.
+SELECT o.num_orden, SUM(d.cantidad) AS total
+FROM ORDEN o
+INNER JOIN DETALLE d
+    ON d.num_orden = o.num_orden
+INNER JOIN PRODUCTO p
+    ON d.cod_prod = p.cod_prod
+WHERE NOT d.cantidad < 30
+GROUP BY o.num_orden
+HAVING SUM(d.cantidad) > 100
+
+11) Seleccionar el número de las órdenes en donde se hayan pedido productos de más de un
+proveedor.
+SELECT DISTINCT o.num_orden
+FROM ORDEN o
+INNER JOIN DETALLE d
+    ON d.num_orden = o.num_orden
+INNER JOIN PRODUCTO p
+    ON d.cod_prod = p.cod_prod
+INNER JOIN PROVEEDOR pr
+        ON pr.cod_prov = p.cod_prov    
+WHERE EXISTS (
+    SELECT o2.num_orden
+    FROM ORDEN o2
+    INNER JOIN DETALLE d2
+        ON d2.num_orden = o2.num_orden
+    INNER JOIN PRODUCTO p2
+        ON d2.cod_prod = p2.cod_prod
+    INNER JOIN PROVEeDOR pr2
+        ON pr2.cod_prov = p2.cod_prov
+    WHERE o2.num_orden = o.num_orden
+        AND pr.cod_prov <> pr2.cod_prov
+            )
+ORDER BY o.num_orden asc
+
+12) Seleccionar el código de los clientes que han realizado la mayor o la menor cantidad de órdenes.
+--Forma 1, unir MAX y MIN
+SELECT cod_cli
+FROM ORDEN
+GROUP BY cod_cli
+HAVING COUNT(*) = (
+        SELECT MAX(COUNT(*))
+        FROM ORDEN
+        GROUP BY cod_cli)
+UNION
+SELECT cod_cli
+FROM ORDEN
+GROUP BY cod_cli
+HAVING COUNT(*) = (
+        SELECT MIN(COUNT(*))
+        FROM ORDEN
+        GROUP BY cod_cli)
+        
+--Forma 2, having
+select cod_cli
+from orden
+group by cod_cli
+having count(*) = (select max(count(*))
+		  from orden
+		  group by cod_cli)
+or count(*) = (select min(count(*))
+		  from orden
+		  group by cod_cli)
+		  
