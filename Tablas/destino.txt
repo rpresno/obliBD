@@ -7,3 +7,6 @@ VALUES
 INSERT INTO DESTINO(pais, ciudad, cantidadHabitantes)
 VALUES
 ('Australia', 'Melbourne', 5207145);
+INSERT INTO DESTINO(pais, ciudad, cantidadHabitantes)
+VALUES
+('Brasil', 'Rio de Janeiro', 6211223);

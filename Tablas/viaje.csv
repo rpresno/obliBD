@@ -1,41 +1,57 @@
-VIAJE;10;;;;;;;;;;;;
-numeroPiloto;idAvion;paisPasajero;nroDocPasajero;tipoDocPasajero;paisDestino;ciudadDestino;fechaViaje;importe;metodoPago;observaciones;;;
-no;no;si;no;si;si;si;si;no;si;;;;
-1;101;pais1;1;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 airbus ESP;;;
-1;104;pais2;2;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 airbus no ESP;;;
-1;102;pais3;3;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 embraer ESP;;;
-1;105;pais4;4;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 embraer no ESP;;;
-1;101;pais5;5;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos ESP;;;
-1;102;pais5;5;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos ESP;;;
-1;104;pais6;6;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos no ESP;;;
-1;105;pais6;6;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos no ESP;;;
-1;100;pais7;7;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 boeing ESP;;;
-1;103;pais8;8;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 boeing no ESP;;;
-1;101;pais1;1;pasaporte;Australia;Sidney;01/07/2020;2000;Efectivo;2 ano 1 ganador;;;
-1;102;pais2;2;pasaporte;Australia;Sidney;01/07/2020;2000;Efectivo;2 ano 1 ganador;;;
-1;102;pais3;3;pasaporte;Australia;Sidney;01/07/2020;2000;Efectivo;2 ano 1 ganador;;;
-1;101;pais3;3;pasaporte;Australia;Melbourne;01/07/2020;2000;Efectivo;2 ano 1 perdedor;;;
-1;102;pais4;4;pasaporte;Australia;Melbourne;01/07/2020;2000;Efectivo;2 ano 1 perdedor;;;
-1;101;pais5;5;pasaporte;Australia;Sidney;01/07/2021;2000;Efectivo;2 ano 2 perdedor;;;
-1;102;pais5;5;pasaporte;Australia;Sidney;01/07/2021;2000;Efectivo;2 ano 2 perdedor;;;
-1;101;pais1;1;pasaporte;Australia;Melbourne;01/07/2021;2000;Efectivo;2 ano 2 ganador;;;
-1;101;pais2;2;pasaporte;Australia;Melbourne;01/07/2021;2000;Efectivo;2 ano 2 ganador;;;
-1;102;pais6;6;pasaporte;Australia;Melbourne;01/07/2021;2000;Efectivo;2 ano 2 ganador;;;
-1;101;pais7;7;pasaporte;Australia;Sidney;01/07/2022;2000;Efectivo;2 ano 3 empate;;;
-1;102;pais8;8;pasaporte;Australia;Melbourne;01/07/2022;2000;Efectivo;2 ano 3 empate;;;
-1;101;pais1;1;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais2;2;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais3;3;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais4;4;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais5;5;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais6;6;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais7;7;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais8;8;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais9;9;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;101;pais10;10;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;102;pais1;1;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;102;pais2;2;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;102;pais3;3;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;102;pais4;4;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;102;pais5;5;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
-1;102;pais6;6;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo;;;
+VIAJE;10;;;;;;;;;
+numeroPiloto;idAvion;paisPasajero;nroDocPasajero;tipoDocPasajero;paisDestino;ciudadDestino;fechaViaje;importe;metodoPago;observaciones
+no;no;si;no;si;si;si;si;no;si;
+1;101;pais1;1;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 airbus ESP
+1;104;pais2;2;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 airbus no ESP
+1;102;pais3;3;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 embraer ESP
+1;105;pais4;4;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 embraer no ESP
+1;101;pais5;5;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos ESP
+1;102;pais5;5;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos ESP
+1;104;pais6;6;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos no ESP
+1;105;pais6;6;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 ambos no ESP
+1;100;pais7;7;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 boeing ESP
+1;103;pais8;8;pasaporte;Francia;Paris;23/12/2023;2000;Efectivo;1 boeing no ESP
+1;101;pais1;1;pasaporte;Australia;Sidney;01/07/2020;2000;Efectivo;2 ano 1 ganador
+1;102;pais2;2;pasaporte;Australia;Sidney;01/07/2020;2000;Efectivo;2 ano 1 ganador
+1;102;pais3;3;pasaporte;Australia;Sidney;01/07/2020;2000;Efectivo;2 ano 1 ganador
+1;101;pais3;3;pasaporte;Australia;Melbourne;01/07/2020;2000;Efectivo;2 ano 1 perdedor
+1;102;pais4;4;pasaporte;Australia;Melbourne;01/07/2020;2000;Efectivo;2 ano 1 perdedor
+1;101;pais5;5;pasaporte;Australia;Sidney;01/07/2021;2000;Efectivo;2 ano 2 perdedor
+1;102;pais5;5;pasaporte;Australia;Sidney;01/07/2021;2000;Efectivo;2 ano 2 perdedor
+1;101;pais1;1;pasaporte;Australia;Melbourne;01/07/2021;2000;Efectivo;2 ano 2 ganador
+1;101;pais2;2;pasaporte;Australia;Melbourne;01/07/2021;2000;Efectivo;2 ano 2 ganador
+1;102;pais6;6;pasaporte;Australia;Melbourne;01/07/2021;2000;Efectivo;2 ano 2 ganador
+1;101;pais7;7;pasaporte;Australia;Sidney;01/07/2022;2000;Efectivo;2 ano 3 empate
+1;102;pais8;8;pasaporte;Australia;Melbourne;01/07/2022;2000;Efectivo;2 ano 3 empate
+1;101;pais1;1;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais2;2;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais3;3;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais4;4;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais5;5;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais6;6;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais7;7;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais8;8;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais9;9;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;101;pais10;10;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;102;pais1;1;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;102;pais2;2;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;102;pais3;3;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;102;pais4;4;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;102;pais5;5;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;102;pais6;6;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;2 ano 4 supera minimo
+1;100;pais1;31;pasaporte;Brasil;Rio de Janeiro;01/04/2023;2000;Efectivo;3 Br Fech Edad Modelo
+1;101;pais2;32;pasaporte;Brasil;Rio de Janeiro;01/05/2023;2000;Efectivo;3 Br Fech Edad -Modelo
+1;100;pais9;39;pasaporte;Brasil;Rio de Janeiro;01/06/2023;2000;Efectivo;3 Br Fech -Edad Modelo
+1;101;pais10;30;pasaporte;Brasil;Rio de Janeiro;30/06/2023;2000;Efectivo;3 Br Fech -Edad -Modelo
+1;100;pais3;33;pasaporte;Brasil;Rio de Janeiro;01/07/2023;2000;Efectivo;3 Br -Fech Edad Modelo
+1;101;pais4;34;pasaporte;Brasil;Rio de Janeiro;01/05/2022;2000;Efectivo;3 Br -Fech Edad -Modelo
+1;100;pais9;39;pasaporte;Brasil;Rio de Janeiro;31/03/2023;2000;Efectivo;3 Br -Fech -Edad Modelo
+1;101;pais10;30;pasaporte;Brasil;Rio de Janeiro;01/04/2024;2000;Efectivo;3 Br -Fech -Edad -Modelo
+1;100;pais5;35;pasaporte;Australia;Sidney;01/04/2023;2000;Efectivo;3 -Br Fech Edad Modelo
+1;101;pais6;36;pasaporte;Australia;Sidney;01/05/2023;2000;Efectivo;3 -Br Fech Edad -Modelo
+1;100;pais9;39;pasaporte;Australia;Sidney;01/06/2023;2000;Efectivo;3 -Br Fech -Edad Modelo
+1;101;pais10;30;pasaporte;Australia;Sidney;30/06/2023;2000;Efectivo;3 -Br Fech -Edad -Modelo
+1;100;pais7;37;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;3 -Br -Fech Edad Modelo
+1;101;pais8;38;pasaporte;Australia;Sidney;01/05/2022;2000;Efectivo;3 -Br -Fech Edad -Modelo
+1;100;pais9;39;pasaporte;Australia;Sidney;31/03/2023;2000;Efectivo;3 -Br -Fech -Edad Modelo
+1;101;pais10;30;pasaporte;Australia;Sidney;01/04/2024;2000;Efectivo;3 -Br -Fech -Edad -Modelo

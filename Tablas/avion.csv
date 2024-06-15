@@ -1,8 +1,8 @@
 AVION;4;;;
 idAvion;matricula;rutAerolinea;modelo;observaciones
 no;si;no;si;
-100;B100;1000;Boeing;1 - ESP
-101;A101;1000;Airbus;1 - ESP
+100;B100;1000;Boeing;1 - ESP - 3
+101;A101;1000;Airbus;1 - ESP - 3
 102;E102;1000;Embraer;1 - ESP
 103;B103;2000;Boeing;1- no ESP
 104;A104;2000;Airbus;1- no ESP

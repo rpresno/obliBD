@@ -1,0 +1,60 @@
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais1', 1, 'pasaporte', 'nom 1', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais2', 2, 'pasaporte', 'nom 2', '14/06/2004');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais3', 3, 'pasaporte', 'nom 3', '14/06/1994');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais4', 4, 'pasaporte', 'nom 4', '14/06/2005');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais5', 5, 'pasaporte', 'nom 5', '14/06/2006');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais6', 6, 'pasaporte', 'nom 6', '14/06/2007');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais7', 7, 'pasaporte', 'nom 7', '14/06/2008');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais8', 8, 'pasaporte', 'nom 8', '14/06/2009');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais9', 9, 'pasaporte', 'nom 9', '14/06/2005');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais10', 10, 'pasaporte', 'nom 10', '14/06/1993');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais1', 31, 'pasaporte', 'nom 31', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais2', 32, 'pasaporte', 'nom 32', '14/06/2004');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais3', 33, 'pasaporte', 'nom 33', '14/06/1994');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais4', 34, 'pasaporte', 'nom 34', '14/06/2005');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais5', 35, 'pasaporte', 'nom 35', '14/06/2006');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais6', 36, 'pasaporte', 'nom 36', '14/06/2007');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais7', 37, 'pasaporte', 'nom 37', '14/06/2008');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais8', 38, 'pasaporte', 'nom 38', '14/06/2009');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais9', 39, 'pasaporte', 'nom 39', '14/06/2005');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais10', 30, 'pasaporte', 'nom 30', '14/06/1993');

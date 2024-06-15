@@ -2,7 +2,7 @@
 Brasil en el segundo trimestre del año pasado. Considerar únicamente los pasajeros que
 tengan entre 20 y 30 años y que hayan viajado solamente en aviones de modelo Boeing*/
 
-SELECT pi.nombre as Piloto, p.*
+SELECT DISTINCT pi.nombre as Piloto, p.*
 FROM PASAJERO p
 INNER JOIN VIAJE v
     ON p.nrodoc = v.nrodocpasajero
@@ -24,7 +24,7 @@ WHERE EXISTS (
             AND EXTRACT (YEAR from v2.fechaviaje) = 2023
             AND EXTRACT (MONTH from v2.fechaviaje) BETWEEN 4 AND 6
         )
-    AND EXTRACT (YEAR from p.fechanacimiento) BETWEEN 20 AND 30
+    AND EXTRACT (YEAR from (p.fechanacimiento)) BETWEEN 1994 AND 2004
     AND NOT EXISTS (
         SELECT *
         FROM PASAJERO p3
@@ -39,3 +39,5 @@ WHERE EXISTS (
             AND p.tipodoc = p3.tipodoc
             AND UPPER(a3.modelo) <> 'BOEING' 
         )
+ORDER BY p.nrodoc
+
