@@ -1,0 +1,27 @@
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(100, 'B100', 1000, 'Boeing');
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(101, 'A101', 1000, 'Airbus');
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(102, 'E102', 1000, 'Embraer');
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(103, 'B103', 2000, 'Boeing');
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(104, 'A104', 2000, 'Airbus');
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(105, 'E105', 2000, 'Embraer');
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(106, 'B106', 3000, 'Boeing');
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(107, 'A107', 4000, 'Airbus');
+INSERT INTO AVION(idAvion, matricula, rutAerolinea, modelo)
+VALUES
+(108, 'E108', 5000, 'Embraer');

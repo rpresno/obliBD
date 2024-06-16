@@ -220,3 +220,15 @@ VALUES
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
 (1, 101, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Transferencia');
+INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
+VALUES
+(1, 103, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 1800, 'Transferencia');
+INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
+VALUES
+(1, 106, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 1500, 'Transferencia');
+INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
+VALUES
+(1, 107, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 1500, 'Transferencia');
+INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
+VALUES
+(1, 108, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 1800, 'Transferencia');

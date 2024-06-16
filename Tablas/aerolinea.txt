@@ -1,0 +1,15 @@
+INSERT INTO AEROLINEA(rutAerolinea, telefono, nombre, razonSocial, pais, tipoVuelo)
+VALUES
+(1000, 099999999, 'Ibernia', 'razon 1', 'España', 'Internacional');
+INSERT INTO AEROLINEA(rutAerolinea, telefono, nombre, razonSocial, pais, tipoVuelo)
+VALUES
+(2000, 088888888, 'Golazo', 'razon 2', 'Brasil', 'Internacional');
+INSERT INTO AEROLINEA(rutAerolinea, telefono, nombre, razonSocial, pais, tipoVuelo)
+VALUES
+(3000, 077777777, 'Pluma', 'razon 3', 'Uruguay', 'Local');
+INSERT INTO AEROLINEA(rutAerolinea, telefono, nombre, razonSocial, pais, tipoVuelo)
+VALUES
+(4000, 066666666, 'Jamaican', 'razon 4', 'Jamaica', 'Internacional');
+INSERT INTO AEROLINEA(rutAerolinea, telefono, nombre, razonSocial, pais, tipoVuelo)
+VALUES
+(5000, 055555555, 'AeroLiniers', 'razon 5', 'Argentina', 'Ambas');
