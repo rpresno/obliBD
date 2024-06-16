@@ -55,3 +55,23 @@ no;no;si;no;si;si;si;si;no;si;
 1;101;pais8;38;pasaporte;Australia;Sidney;01/05/2022;2000;Efectivo;3 -Br -Fech Edad -Modelo
 1;100;pais9;39;pasaporte;Australia;Sidney;31/03/2023;2000;Efectivo;3 -Br -Fech -Edad Modelo
 1;101;pais10;30;pasaporte;Australia;Sidney;01/04/2024;2000;Efectivo;3 -Br -Fech -Edad -Modelo
+2;101;pais1;400;pasaporte;Francia;Paris;01/07/2023;2000;Efectivo;4 TodosD Efectivo Piloto
+2;101;pais1;400;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;4 TodosD Efectivo Piloto
+2;101;pais1;400;pasaporte;Australia;Melbourne;01/07/2023;2000;Efectivo;4 TodosD Efectivo Piloto
+2;101;pais1;400;pasaporte;Brasil;Rio de Janeiro;01/07/2023;2000;Efectivo;4 TodosD Efectivo Piloto
+2;101;pais1;401;pasaporte;Francia;Paris;01/07/2023;2000;Efectivo;4 -TodosD Efectivo Piloto
+2;101;pais1;402;pasaporte;Francia;Paris;01/07/2023;2000;Tarjeta;4 TodosD -Efectivo Piloto
+2;101;pais1;402;pasaporte;Australia;Sidney;01/07/2023;2000;Tarjeta;4 TodosD -Efectivo Piloto
+2;101;pais1;402;pasaporte;Australia;Melbourne;01/07/2023;2000;Tarjeta;4 TodosD -Efectivo Piloto
+2;101;pais1;402;pasaporte;Brasil;Rio de Janeiro;01/07/2023;2000;Tarjeta;4 TodosD -Efectivo Piloto
+2;101;pais1;403;pasaporte;Francia;Paris;01/07/2023;2000;Tarjeta;4 -TodosD -Efectivo Piloto
+1;101;pais1;404;pasaporte;Francia;Paris;01/07/2023;2000;Efectivo;4 TodosD Efectivo -Piloto
+1;101;pais1;404;pasaporte;Australia;Sidney;01/07/2023;2000;Efectivo;4 TodosD Efectivo -Piloto
+1;101;pais1;404;pasaporte;Australia;Melbourne;01/07/2023;2000;Efectivo;4 TodosD Efectivo -Piloto
+1;101;pais1;404;pasaporte;Brasil;Rio de Janeiro;01/07/2023;2000;Efectivo;4 TodosD Efectivo -Piloto
+1;101;pais1;405;pasaporte;Francia;Paris;01/07/2023;2000;Efectivo;4 -TodosD Efectivo -Piloto
+1;101;pais1;406;pasaporte;Francia;Paris;01/07/2023;2000;Transferencia;4 TodosD -Efectivo -Piloto
+1;101;pais1;406;pasaporte;Australia;Sidney;01/07/2023;2000;Transferencia;4 TodosD -Efectivo -Piloto
+1;101;pais1;406;pasaporte;Australia;Melbourne;01/07/2023;2000;Transferencia;4 TodosD -Efectivo -Piloto
+1;101;pais1;406;pasaporte;Brasil;Rio de Janeiro;01/07/2023;2000;Transferencia;4 TodosD -Efectivo -Piloto
+1;101;pais1;407;pasaporte;Francia;Paris;01/07/2023;2000;Transferencia;4 -TodosD -Efectivo -Piloto

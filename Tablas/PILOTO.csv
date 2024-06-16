@@ -2,3 +2,4 @@ PILOTO;4;;;
 numeroPiloto;nombre;hsVuelo;licencia;observaciones
 no;si;no;no;
 1;Piloto Perez;500;5001;1-base
+2;Piloto Gomez;3500;2001;4 +3000hs

@@ -39,5 +39,4 @@ WHERE EXISTS (
             AND p.tipodoc = p3.tipodoc
             AND UPPER(a3.modelo) <> 'BOEING' 
         )
-ORDER BY p.nrodoc
 

@@ -1,3 +1,6 @@
 INSERT INTO PILOTO(numeroPiloto, nombre, hsVuelo, licencia)
 VALUES
 (1, 'Piloto Perez', 500, 5001);
+INSERT INTO PILOTO(numeroPiloto, nombre, hsVuelo, licencia)
+VALUES
+(2, 'Piloto Gomez', 3500, 2001);

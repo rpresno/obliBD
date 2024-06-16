@@ -1,0 +1,36 @@
+PILOTOS as (
+    SELECT v.paisPasajero, v.nroDocPasajero, v.tipoDocPasajero, v.paisDestino, v.ciudadDestino
+    FROM Viaje v
+    JOIN Piloto p ON v.numeroPiloto = p.numeroPiloto
+    WHERE v.metodoPago = ‘Efectivo’
+        AND p.hsVuelo > 3000
+); -- Obtengo los vuelos filtrados por método de pago y horas de vuelo del piloto
+
+DestinosVisitados AS (
+    SELECT DISTINCT paisDestino, ciudadDestino
+    FROM Pilotos
+); -- Subconsulta para obtener todos los destinos visitados por los pasajeros en los vuelos filtrados
+
+Pasajeros AS (
+    SELECT DISTINCT p.paisPasajero, p.nroDocPasajero, p.tipoPasajero
+    FROM Pilotos p
+    WHERE NOT EXISTS (
+        SELECT d.paisDestino, d.ciudadDestino
+        FROM DestinosVisitados d
+        WHERE NOT EXISTS (
+            SELECT 1 -- solo verifica si existe la fila
+            FROM Pilotos pas
+            WHERE pas.paisPasajero = p.paisPasajero
+                AND pas.nroDocPasajero = p.nroDocPasajero
+                AND pas.tipoDocPasajero =p.tipoDocPasajero
+                AND pas.paisDestino = p.paisDestino
+                AND pas.ciudadDestino = d.ciudadDestino
+        ) 
+    )
+); -- Subconsulta para identificar pasajeros que han viajado a todos los destinos
+
+SELECT pa.* 
+FROM Pasajero pa 
+JOIN Pasajero ps ON pa.pais = ps.pais
+    AND pa.nroDoc = ps.nroDoc 
+    AND pa.tipoDoc = ps.tipoDoc ORDER BY pa.nombrecompleto
