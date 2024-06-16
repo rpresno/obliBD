@@ -1,0 +1,8 @@
+SELECT p.nombreCompleto, p.pais, SUM(v.importe) as "Importe total"
+FROM Pasajero p
+INNER JOIN Viaje v
+ON p.pais = v.paisPasajero
+	AND p.nroDoc = v.nroDocPasajero
+	AND p.tipoDoc = v.tipoDocPasajero
+WHERE v.fechaviaje >= ADD_MONTHS(SYSDATE,-12)
+GROUP BY p.nombreCompleto, p.pais
