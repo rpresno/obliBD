@@ -1,0 +1,7 @@
+PASAJERO;5;;;;
+pais;nroDoc;tipoDoc;nombreCompleto;fechaNacimiento;obsevaciones
+si;no;si;si;si;
+Francia;1;Pasaporte;nombre 1;01/01/2000;10
+Mexico;2;Pasaporte;nombre 2;01/01/2000;10
+Egipto;3;Pasaporte;nombre 3;01/01/2000;10
+Uruguay;4;Pasaporte;nombre 4;01/01/2000;10

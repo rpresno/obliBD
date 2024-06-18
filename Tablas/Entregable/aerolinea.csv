@@ -1,0 +1,8 @@
+AEROLINEA;6;;;;;
+rutAerolinea;telefono;nombre;razonSocial;pais;tipoVuelo;observacion
+no;no;si;si;si;si;
+1000;099999999;Ibernia;razon 1;España;Internacional;
+2000;088888888;Golazo;razon 2;Brasil;Internacional;5 Internacional -Menor
+3000;077777777;Pluma;razon 3;Uruguay;Local;5 -Internacional Menor
+4000;066666666;Jamaican;razon 4;Jamaica;Internacional;5 Internacional Menor
+5000;055555555;AeroLiniers;razon 5;Argentina;Ambas;5 -Internacional -Menor

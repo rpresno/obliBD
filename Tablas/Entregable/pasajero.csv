@@ -1,0 +1,39 @@
+PASAJERO;5;;;;
+pais;nroDoc;tipoDoc;nombreCompleto;fechaNacimiento;obsevaciones
+si;no;si;si;si;
+pais1;1;pasaporte;nom 1;14/06/2000;1 2
+pais2;2;pasaporte;nom 2;14/06/2004;1 2
+pais3;3;pasaporte;nom 3;14/06/1994;1 2
+pais4;4;pasaporte;nom 4;14/06/2005;1 2
+pais5;5;pasaporte;nom 5;14/06/2006;1 2
+pais6;6;pasaporte;nom 6;14/06/2007;1 2
+pais7;7;pasaporte;nom 7;14/06/2008;1 2
+pais8;8;pasaporte;nom 8;14/06/2009;1 2
+pais9;9;pasaporte;nom 9;14/06/2005;1 2
+pais10;10;pasaporte;nom 10;14/06/1993;1 2
+pais1;31;pasaporte;nom 31;14/06/2000;3(edad 20-30)
+pais2;32;pasaporte;nom 32;14/06/2004;3(edad 20-30)
+pais3;33;pasaporte;nom 33;14/06/1994;3(edad 20-30)
+pais4;34;pasaporte;nom 34;14/06/2005;3(edad 20-30)
+pais5;35;pasaporte;nom 35;14/06/2006;3(edad 20-30)
+pais6;36;pasaporte;nom 36;14/06/2007;3(edad 20-30)
+pais7;37;pasaporte;nom 37;14/06/2008;3(edad 20-30)
+pais8;38;pasaporte;nom 38;14/06/2009;3(edad 20-30)
+pais9;39;pasaporte;nom 39;14/06/2005;-3(edad <> 20-30)
+pais10;30;pasaporte;nom 30;14/06/1993;-3(edad <> 20-30)
+pais1;400;pasaporte;Nombre 400;14/06/2000;4
+pais1;401;pasaporte;Nombre 401;14/06/2004;4
+pais1;402;pasaporte;Nombre 402;14/06/1994;4
+pais1;403;pasaporte;Nombre 403;14/06/2005;4
+pais1;404;pasaporte;Nombre 404;14/06/2006;4
+pais1;405;pasaporte;Nombre 405;14/06/2007;4
+pais1;406;pasaporte;Nombre 406;14/06/2008;4
+pais1;407;pasaporte;Nombre 407;14/06/2009;4
+pais80;800;pasaporte;Nombre800;14/06/2000;8
+pais80;801;pasaporte;Nombre801;14/06/2000;8
+pais80;802;pasaporte;Nombre802;14/06/2000;8
+pais80;803;pasaporte;Nombre803;14/06/2000;8
+pais80;804;pasaporte;Nombre804;14/06/2000;8
+pais80;805;pasaporte;Nombre805;14/06/2000;8
+pais80;806;pasaporte;Nombre806;14/06/2000;8
+pais80;807;pasaporte;Nombre807;14/06/2000;8

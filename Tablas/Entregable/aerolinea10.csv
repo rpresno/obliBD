@@ -1,0 +1,5 @@
+AEROLINEA;6;;;;;
+rutAerolinea;telefono;nombre;razonSocial;pais;tipoVuelo;observacion
+no;no;si;si;si;si;
+1000;09001711;Aero A;razon A;Uruguay;Internacional;10 int
+2000;1122;Aero B;razon B;Brasil;Local;10 -int
