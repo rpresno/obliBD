@@ -1,0 +1,7 @@
+PILOTO;4;;;
+numeroPiloto;nombre;hsVuelo;licencia;observaciones
+no;si;no;no;
+100;Piloto Perez;1000;1;10
+101;Piloto Gomez;1000;2;10
+102;Piloto Muniz;1000;3;10
+103;Piloto Pilatez;1000;4;10

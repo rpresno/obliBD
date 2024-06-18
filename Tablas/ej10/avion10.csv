@@ -1,0 +1,6 @@
+AVION;4;;;
+idAvion;matricula;rutAerolinea;modelo;observaciones
+no;si;no;si;
+100;B100;1000;Boeing;10
+101;A101;1000;Airbus;10
+102;E102;2000;Embraer;10

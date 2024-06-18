@@ -223,244 +223,82 @@ VALUES
 INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
 VALUES
 ('pais1', 407, 'pasaporte', 'Nombre 407', '14/06/2009');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais80', 800, 'pasaporte', 'Nombre800', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais80', 801, 'pasaporte', 'Nombre801', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais80', 802, 'pasaporte', 'Nombre802', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais80', 803, 'pasaporte', 'Nombre803', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais80', 804, 'pasaporte', 'Nombre804', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais80', 805, 'pasaporte', 'Nombre805', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais80', 806, 'pasaporte', 'Nombre806', '14/06/2000');
+INSERT INTO PASAJERO(pais, nroDoc, tipoDoc, nombreCompleto, fechaNacimiento)
+VALUES
+('pais80', 807, 'pasaporte', 'Nombre807', '14/06/2000');
 
 
 
 
+
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 101, 'pais1', 1, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 800, 'pasaporte', 'Australia', 'Melbourne', '01/01/2024', 1200, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 104, 'pais2', 2, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 801, 'pasaporte', 'Australia', 'Melbourne', '01/01/2024', 1200, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 102, 'pais3', 3, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 802, 'pasaporte', 'Australia', 'Melbourne', '31/12/2024', 1200, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 105, 'pais4', 4, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 803, 'pasaporte', 'Australia', 'Melbourne', '31/12/2024', 1200, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 101, 'pais5', 5, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 804, 'pasaporte', 'Australia', 'Melbourne', '01/01/2024', 800, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 102, 'pais5', 5, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 805, 'pasaporte', 'Australia', 'Melbourne', '01/01/2024', 800, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 104, 'pais6', 6, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 806, 'pasaporte', 'Australia', 'Melbourne', '31/12/2024', 800, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 105, 'pais6', 6, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 807, 'pasaporte', 'Australia', 'Melbourne', '31/12/2024', 800, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 100, 'pais7', 7, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 800, 'pasaporte', 'Australia', 'Sidney', '01/01/2024', 1200, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 103, 'pais8', 8, 'pasaporte', 'Francia', 'Paris', '23/12/2023', 2000, 'Efectivo');
+(1, 101, 'pais80', 801, 'pasaporte', 'Francia', 'Paris', '01/01/2024', 1200, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 101, 'pais1', 1, 'pasaporte', 'Australia', 'Sidney', '01/07/2020', 2000, 'Efectivo');
+(1, 101, 'pais80', 802, 'pasaporte', 'Australia', 'Sidney', '31/12/2024', 1200, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 102, 'pais2', 2, 'pasaporte', 'Australia', 'Sidney', '01/07/2020', 2000, 'Efectivo');
+(1, 101, 'pais80', 803, 'pasaporte', 'Francia', 'Paris', '31/12/2024', 1200, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 102, 'pais3', 3, 'pasaporte', 'Australia', 'Sidney', '01/07/2020', 2000, 'Efectivo');
+(1, 101, 'pais80', 804, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/01/2024', 800, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 101, 'pais3', 3, 'pasaporte', 'Australia', 'Melbourne', '01/07/2020', 2000, 'Efectivo');
+(1, 101, 'pais80', 805, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/01/2024', 800, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 102, 'pais4', 4, 'pasaporte', 'Australia', 'Melbourne', '01/07/2020', 2000, 'Efectivo');
+(1, 101, 'pais80', 806, 'pasaporte', 'Brasil', 'Rio de Janeiro', '31/12/2024', 800, 'Efectivo');
 INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
 VALUES
-(1, 101, 'pais5', 5, 'pasaporte', 'Australia', 'Sidney', '01/07/2021', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais5', 5, 'pasaporte', 'Australia', 'Sidney', '01/07/2021', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 1, 'pasaporte', 'Australia', 'Melbourne', '01/07/2021', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais2', 2, 'pasaporte', 'Australia', 'Melbourne', '01/07/2021', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais6', 6, 'pasaporte', 'Australia', 'Melbourne', '01/07/2021', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais7', 7, 'pasaporte', 'Australia', 'Sidney', '01/07/2022', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais8', 8, 'pasaporte', 'Australia', 'Melbourne', '01/07/2022', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 1, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais2', 2, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais3', 3, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais4', 4, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais5', 5, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais6', 6, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais7', 7, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais8', 8, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais9', 9, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais10', 10, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais1', 1, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais2', 2, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais3', 3, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais4', 4, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais5', 5, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 102, 'pais6', 6, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 100, 'pais1', 31, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/04/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais2', 32, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/05/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 100, 'pais9', 39, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/06/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais10', 30, 'pasaporte', 'Brasil', 'Rio de Janeiro', '30/06/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 100, 'pais3', 33, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais4', 34, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/05/2022', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 100, 'pais9', 39, 'pasaporte', 'Brasil', 'Rio de Janeiro', '31/03/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais10', 30, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/04/2024', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 100, 'pais5', 35, 'pasaporte', 'Australia', 'Sidney', '01/04/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais6', 36, 'pasaporte', 'Australia', 'Sidney', '01/05/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 100, 'pais9', 39, 'pasaporte', 'Australia', 'Sidney', '01/06/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais10', 30, 'pasaporte', 'Australia', 'Sidney', '30/06/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 100, 'pais7', 37, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais8', 38, 'pasaporte', 'Australia', 'Sidney', '01/05/2022', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 100, 'pais9', 39, 'pasaporte', 'Australia', 'Sidney', '31/03/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais10', 30, 'pasaporte', 'Australia', 'Sidney', '01/04/2024', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 400, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 400, 'pasaporte', 'Francia', 'Paris', '02/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 400, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 400, 'pasaporte', 'Australia', 'Melbourne', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 400, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 401, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 402, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Tarjeta');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 402, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Tarjeta');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 402, 'pasaporte', 'Australia', 'Melbourne', '01/07/2023', 2000, 'Tarjeta');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 402, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/07/2023', 2000, 'Tarjeta');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(2, 101, 'pais1', 403, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Tarjeta');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 404, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 404, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 404, 'pasaporte', 'Australia', 'Melbourne', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 404, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 405, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Efectivo');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 406, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Transferencia');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 406, 'pasaporte', 'Australia', 'Sidney', '01/07/2023', 2000, 'Transferencia');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 406, 'pasaporte', 'Australia', 'Melbourne', '01/07/2023', 2000, 'Transferencia');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 406, 'pasaporte', 'Brasil', 'Rio de Janeiro', '01/07/2023', 2000, 'Transferencia');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 101, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 2000, 'Transferencia');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 103, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 1800, 'Transferencia');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 106, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 1500, 'Transferencia');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 107, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 1500, 'Transferencia');
-INSERT INTO VIAJE(numeroPiloto, idAvion, paisPasajero, nroDocPasajero, tipoDocPasajero, paisDestino, ciudadDestino, fechaViaje, importe, metodoPago)
-VALUES
-(1, 108, 'pais1', 407, 'pasaporte', 'Francia', 'Paris', '01/07/2023', 1800, 'Transferencia');
+(1, 101, 'pais80', 807, 'pasaporte', 'Francia', 'Paris', '31/12/2024', 800, 'Efectivo');
+
+

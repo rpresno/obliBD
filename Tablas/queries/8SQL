@@ -1,0 +1,6 @@
+SELECT d.ciudad, d.pais, SUM(v.importe)
+FROM DESTINO d, VIAJE v
+WHERE v.ciudaddestino = d.ciudad
+    AND v.paisdestino = d.pais
+GROUP BY d.ciudad, d.pais
+HAVING (AVG(v.importe) > v.importe)

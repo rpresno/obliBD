@@ -1,0 +1,23 @@
+VIAJE;10;;;;;;;;;
+numeroPiloto;idAvion;paisPasajero;nroDocPasajero;tipoDocPasajero;paisDestino;ciudadDestino;fechaViaje;importe;metodoPago;observaciones
+no;no;si;no;si;si;si;si;no;si;
+100;100;Francia;1;Pasaporte;Francia;Paris;01/01/2023;100;Efectivo;10
+100;102;Mexico;2;Pasaporte;Brasil;Rio de Janeiro;01/07/2023;100;Efectivo;10
+100;102;Egipto;3;Pasaporte;Brasil;Rio de Janeiro;01/07/2023;100;Efectivo;10
+100;100;Uruguay;4;Pasaporte;Brasil;Rio de Janeiro;01/07/2023;100;Efectivo;10
+100;102;Francia;1;Pasaporte;Brasil;Rio de Janeiro;01/10/2023;100;Efectivo;10
+100;100;Mexico;2;Pasaporte;Francia;Paris;02/10/2023;100;Efectivo;10
+100;102;Egipto;3;Pasaporte;Brasil;Rio de Janeiro;03/10/2023;100;Efectivo;10
+100;100;Uruguay;4;Pasaporte;Brasil;Rio de Janeiro;04/10/2023;100;Efectivo;10
+100;102;Francia;1;Pasaporte;Brasil;Rio de Janeiro;05/10/2023;100;Efectivo;10
+100;100;Mexico;2;Pasaporte;Francia;Paris;01/12/2023;100;Efectivo;10
+101;102;Egipto;3;Pasaporte;Francia;Paris;01/12/2023;100;Efectivo;10
+101;100;Uruguay;4;Pasaporte;Francia;Paris;01/12/2023;100;Efectivo;10
+101;102;Francia;1;Pasaporte;Brasil;Rio de Janeiro;01/12/2023;100;Efectivo;10
+101;100;Mexico;2;Pasaporte;Brasil;Rio de Janeiro;01/12/2023;100;Efectivo;10
+101;102;Egipto;3;Pasaporte;Brasil;Rio de Janeiro;01/12/2023;100;Efectivo;10
+101;100;Uruguay;4;Pasaporte;Brasil;Rio de Janeiro;01/12/2023;100;Efectivo;10
+102;102;Francia;1;Pasaporte;Francia;Paris;01/12/2023;100;Efectivo;10
+102;100;Mexico;2;Pasaporte;Brasil;Rio de Janeiro;01/12/2023;100;Efectivo;10
+102;102;Egipto;3;Pasaporte;Brasil;Rio de Janeiro;01/12/2023;100;Efectivo;10
+103;100;Uruguay;4;Pasaporte;Brasil;Rio de Janeiro;01/12/2023;100;Efectivo;10

@@ -1,0 +1,9 @@
+SELECT ae.rutaerolinea, v.paisdestino, v.ciudaddestino,EXTRACT (YEAR FROM v.fechaviaje) AS año,
+    EXTRACT (MONTH FROM v.fechaviaje) AS mes, COUNT(*) AS cantidadVuelos
+FROM Viaje v
+INNER JOIN Avion a
+	ON v.idAvion = a.idAvion
+INNER JOIN Aerolinea ae
+	ON a.rutAerolinea = ae.rutaerolinea
+GROUP BY ae.rutaerolinea, v.paisDestino, v.ciudadDestino, EXTRACT (YEAR FROM fechaviaje), EXTRACT (MONTH FROM fechaviaje)
+ORDER BY ae.rutaerolinea, v.paisDestino, v.ciudadDestino, EXTRACT (YEAR FROM fechaviaje), EXTRACT (MONTH FROM fechaviaje)
